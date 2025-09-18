@@ -142,7 +142,7 @@ while running:
         
         print(f"A letter grade of {desired_letter} requires {lowest_score_for_letter}/1000 points.")
         print(f"To achieve this, you must score at least {lowest_final_for_desired_grade:.2f} points on your final exam.")
-        if lowest_final_for_desired_grade < 100:
+        if lowest_final_for_desired_grade > 100:
             final_exam_score = 100
             print(f"This score is impossible. The maximum final exam grade is 100 points.")
         elif lowest_final_for_desired_grade < 0:
