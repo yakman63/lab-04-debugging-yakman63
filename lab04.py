@@ -1,7 +1,14 @@
-'''
-
 import sys
 
+'''
+Author: Matthew Remington
+Date: September 15, 2025
+Assignment: Lab 03
+Course: CPSC 1051
+Lab Section: 002
+
+Calculates grades for CSPC 1050 and 1051.
+'''
 # --- SECTION 1: UNDERSTANDING THE SET UP
 
 # --- SECTION 1.1: SETTING UP DEFAULT VALUES - NO BUGS HERE - DO NOT EDIT ---
