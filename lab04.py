@@ -39,7 +39,7 @@ for assessment, max_score in assessments.items():
     print(f"What is your {assessment} score out of {max_score}?")
     score = float(input())
     
-    while 0 <= score > max_score:
+    while 0 > score or score > max_score:
         print(f"Invalid score entry. Please enter a number between 0 and {max_score}.")
         score = float(input())
         
