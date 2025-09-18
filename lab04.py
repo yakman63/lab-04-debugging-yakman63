@@ -175,7 +175,7 @@ while running:
     # --- SECTION 2.5: EXAM FAIL CONDITION ---
     exam_average = (assessments["Exam 1"] + assessments["Exam 2"] + final_exam_score)/3
 
-    if exam_average < 59.5 and choice != "Q":
+    if exam_average < 60 and choice != "Q":
         print("\nYou must have a passing exam average (60%+) to pass this course.")
         print(f"With a final exam score of {final_exam_score:.2f}, your exam average comes to {exam_average:.2f}.")
         print("Unfortunately, you have failed CPSC 1050.")
