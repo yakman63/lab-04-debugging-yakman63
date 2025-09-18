@@ -86,7 +86,7 @@ if drop_lowest_lab:
  
     
 # --- SECTION 1.5: LAB FAIL CONDITION ---
-if assessments["Labs"]/2 < 59.5:
+if assessments["Labs"]/2 < 60:
     print("\nUnfortunately, you have failed CPSC 1050:")
     print("\tYou must pass the lab section (60%+) to pass this course.")
     print(f"\tYour lab score is {assessments['Labs']:.2f}/200, or {assessments['Labs']/2:.2f}%.")
@@ -129,7 +129,7 @@ while running:
     # --- SECTION 2.3: FINAL EXAM SCORE NEEDED FOR DESIRED LETTER GRADE ---
     if choice == "F":
         print("Enter your desired letter grade (A, B, C, D, F)")
-        desired_letter = input()
+        desired_letter = input().strip()
         
         while desired_letter not in ["A","B","C","D","F"]:
             print("Invalid choice. Please choose A, B, C, D, or F.")
